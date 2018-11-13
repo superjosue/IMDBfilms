@@ -1,4 +1,4 @@
-om bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 import requests
 from datetime import datetime as dt
 from flask import Flask
@@ -52,5 +52,3 @@ def find_between(s):
     except ValueError:
         return ""
 
-if __name__ == "__main__":
-    app.run(host='0.0.0.0')
