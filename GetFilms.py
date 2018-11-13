@@ -51,4 +51,6 @@ def find_between(s):
         return s[(start * -1) + 1:-1]
     except ValueError:
         return ""
+if __name__ == '__main__':
+    app.run()
 
